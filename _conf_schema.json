@@ -1,0 +1,32 @@
+{
+  "default_random_num": {
+    "type": "int",
+    "description": "随机贴表情默认数量",
+    "default": 5,
+    "hint": "/随机贴表情 不写数量时使用"
+  },
+  "max_random_num": {
+    "type": "int",
+    "description": "随机贴表情单次上限",
+    "default": 20,
+    "hint": "建议不要超过 20"
+  },
+  "time_interval": {
+    "type": "float",
+    "description": "连续贴表情间隔（秒）",
+    "default": 0.3,
+    "hint": "避免请求过快"
+  },
+  "fallback_pig_emoji_id": {
+    "type": "int",
+    "description": "未指定表情时使用的小猪表情 ID",
+    "default": 49,
+    "hint": "默认 49"
+  },
+  "open_admin_mode": {
+    "type": "bool",
+    "description": "是否开启管理员保护模式",
+    "default": false,
+    "hint": "开启后不能给管理员贴表情"
+  }
+}
